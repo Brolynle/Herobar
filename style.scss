@@ -1,0 +1,62 @@
+$primary-bg-color: rgb(255, 180, 119);
+$primary-h2-color: rgb(15, 15, 15);
+$h1-font-size: 35px;
+$h2-font-size: 15px;
+$p-font-size: 25px;
+$hero-width: 750px;
+$hero-padding: 100px 20px 100px 56px;
+$hero-bg-image: url("images/backforh.jpeg");
+
+@mixin bg-image-hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+    margin-left: 575px;   
+    margin-top: 20vh;
+}
+
+@mixin h2-bg-content {
+    background-color:rgba(0, 0, 0, 0.555);
+    padding: 20px;
+    border-radius: 15px;
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.herobar {
+    background-color: $primary-bg-color;
+    width: $hero-width;
+    padding: $hero-padding;
+    @include bg-image-hero();
+    background-image: url(../images/rainbow.jpeg);
+
+
+    .herobarinfo {
+        color: $primary-h2-color;
+
+        h1 {
+            font-size: $h1-font-size;
+            color: white;
+        }
+
+        p {
+            font-size: $p-font-size;
+            color: white;
+        }
+
+        h2 {
+            @include h2-bg-content();
+            font-size: $h2-font-size;
+            color: white;
+
+
+        }
+    }
+}

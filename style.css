@@ -1,0 +1,53 @@
+.herobar {
+  background-color: #ffb477;
+  width: 750px;
+  padding: 100px 20px 100px 56px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+  margin-left: 575px;
+  margin-top: 20vh;
+  background-image: url(../images/rainbow.jpeg);
+}
+
+.herobar .herobarinfo {
+  color: #0f0f0f;
+}
+
+.herobar .herobarinfo h1 {
+  font-size: 35px;
+  color: white;
+}
+
+.herobar .herobarinfo p {
+  font-size: 25px;
+  color: white;
+}
+
+.herobar .herobarinfo h2 {
+  background-color: rgba(0, 0, 0, 0.555);
+  padding: 20px;
+  border-radius: 15px;
+  width: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
