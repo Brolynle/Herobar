@@ -1,4 +1,4 @@
-$primary-bg-color: rgb(255, 180, 119);
+$primary-bg-color: rgb(255, 95, 95);
 $primary-h2-color: rgb(15, 15, 15);
 $h1-font-size: 35px;
 $h2-font-size: 15px;
@@ -17,7 +17,7 @@ $hero-bg-image: url("images/backforh.jpeg");
     align-items: center;
     flex-direction: center;
     margin-left: 575px;   
-    margin-top: 20vh;
+    margin-top: 17.5vh;
 }
 
 @mixin h2-bg-content {
@@ -35,7 +35,7 @@ $hero-bg-image: url("images/backforh.jpeg");
     width: $hero-width;
     padding: $hero-padding;
     @include bg-image-hero();
-    background-image: url(../images/rainbow.jpeg);
+    // background-image: url(../images/rainbow.jpeg);
 
 
     .herobarinfo {
@@ -44,17 +44,20 @@ $hero-bg-image: url("images/backforh.jpeg");
         h1 {
             font-size: $h1-font-size;
             color: white;
+            text-align: center;
         }
 
         p {
             font-size: $p-font-size;
             color: white;
+            text-align: center;
         }
 
         h2 {
             @include h2-bg-content();
             font-size: $h2-font-size;
             color: white;
+            margin-left: 310px;
 
 
         }
