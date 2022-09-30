@@ -35,7 +35,7 @@ $hero-bg-image: url("images/backforh.jpeg");
     width: $hero-width;
     padding: $hero-padding;
     @include bg-image-hero();
-    // background-image: url(../images/rainbow.jpeg);
+    background-image: url(../images/forest.jpeg);
 
 
     .herobarinfo {
@@ -45,6 +45,11 @@ $hero-bg-image: url("images/backforh.jpeg");
             font-size: $h1-font-size;
             color: white;
             text-align: center;
+            margin-left: 207.5px;
+            border-color:rgb(15, 15, 15);
+            background: rgba(0, 0, 0, 0.685);
+            border-radius: 10px;
+            width: 45%;
         }
 
         p {
@@ -63,3 +68,7 @@ $hero-bg-image: url("images/backforh.jpeg");
         }
     }
 }
+
+// @media only screen and (max-width: 950px) {
+//     .herobar
+// }

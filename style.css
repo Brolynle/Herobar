@@ -21,6 +21,7 @@
           flex-direction: center;
   margin-left: 575px;
   margin-top: 17.5vh;
+  background-image: url(../images/forest.jpeg);
 }
 
 .herobar .herobarinfo {
@@ -31,6 +32,11 @@
   font-size: 35px;
   color: white;
   text-align: center;
+  margin-left: 207.5px;
+  border-color: #0f0f0f;
+  background: rgba(0, 0, 0, 0.685);
+  border-radius: 10px;
+  width: 45%;
 }
 
 .herobar .herobarinfo p {
